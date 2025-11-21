@@ -44,6 +44,19 @@ This website was created as part of CodePath’s WEB101 course to demonstrate sk
 
 - Front-end validation and accessible labels
 
+## New Things I Learned
+- Creating dark mode with JavaScript and CSS
+- Form handling
+- Loops in JavaScript to count number of attendees
+
+## Future Improvements
+
+- Add more form validation for contest sign-up
+
+- Build a backend to store submissions
+
+- Add filter options to the gallery
+
 ## Live Demo
 
 ## Live Site
