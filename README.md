@@ -1,4 +1,4 @@
-# 🌙 Lunar Belle Museum — Art Fundraiser & Contest
+# 🌙 Lunar Belle Museum Art Fundraiser & Contest
 A web experience built for CodePath WEB101
 
 ## Overview
