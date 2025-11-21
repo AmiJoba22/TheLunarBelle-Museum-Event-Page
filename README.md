@@ -26,19 +26,19 @@ This website was created as part of CodePath’s WEB101 course to demonstrate sk
 - Form handling (frontend only)
 
 ## Features
-- Elegant Museum-Themed UI
+### Elegant Museum-Themed UI
 
 - Clean, modern aesthetic using serif typography and a soft moonlit color palette
 
 - Fully responsive layout for desktop + mobile
 
-## Artwork Gallery
+### Artwork Gallery
 
 - Organized visual section featuring pieces for the contest
 
 - Hover effects for a polished interactive feel
 
-## Contest Entry Form
+### Contest Entry Form
 
 - User input fields to submit artwork entries
 
