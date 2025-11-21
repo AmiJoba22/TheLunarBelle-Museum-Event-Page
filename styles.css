@@ -1,0 +1,486 @@
+/* Add CSS styles for your web site here and use them in index.html. */
+
+/*body*/
+html, body {
+    background-color: #467499;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*text*/
+h1, h2, h3, h4, p, a {
+  color: whitesmoke;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+}
+
+/*top-nav & header */
+.top-nav ul {
+    z-index: 1000; 
+    list-style-type: none;
+    width: 100%;
+    overflow:hidden;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.top-nav ul li {
+    margin: 10px;
+}
+
+.header-item:nth-of-type(1) {
+  text-align: left;
+}
+
+.header-item:nth-of-type(2) {
+  text-align: right;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: right;
+    flex-wrap: wrap;
+    padding: 0 2rem;
+}
+
+/*button*/
+button {
+    background-color: #2a465c;
+    color: whitesmoke;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+    max-width: 100%;
+    border: none;
+}
+
+button:hover {
+    color: lightskyblue;
+}
+
+/*section #1*/
+.first_scroll_page {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 5rem;
+    flex-wrap: wrap;
+}
+
+.first_scroll_page .text-content {
+    flex: 1 1 400px;
+    padding-bottom: 12rem;
+}
+
+.first_scroll_page .first_scroll_img {
+    flex: 1 1 400px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.first_scroll_page .first_scroll_img img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+}
+
+/*section #2*/
+.second_scroll_page{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.second_scroll_img {
+    display: flex;              
+    justify-content: center;     
+    align-items: center;        
+    gap: 20px; 
+    flex-wrap: nowrap;
+}
+
+.second_scroll_page img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* section 3 */
+.third_scroll_page, .third_section {
+  background-color: #2a465c;
+  color: whitesmoke;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+/*links*/
+a:link, a:visited {
+    color: whitesmoke;
+    text-decoration:none;
+}
+
+a:hover {
+    background-color:#2a465c;
+    padding: 0.5rem 0.4rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+a:active {
+    color: lightskyblue;
+}
+
+/*footer*/
+footer{
+  background-color: #2a465c;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+.footer-section {
+    flex-wrap:wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*toggle dark mode*/
+body.dark-mode button {
+  background-color: #89a7c2; 
+  color: #1a1a1a;           
+}
+
+body.dark-mode .first_scroll_page,
+body.dark-mode footer,
+body.dark-mode .header-container {
+  background-color: #2a465c;
+  color: whitesmoke;
+}
+
+body.dark-mode ,
+html.dark-mode {
+  background-color: #2a465c;
+  color: whitesmoke;
+}
+
+body.dark-mode .third_scroll_page {
+  background-color: #89a7c2;
+  color:#1a1a1a;
+}
+
+body.dark-mode .rsvp-para {
+  background-color: #89a7c2;
+  color: #1a1a1a;
+}
+
+body.dark-mode .second_scroll_page {
+  background-color:#1a1a1a ;
+}
+
+body.dark-mode footer {
+  background-color: #89a7c2;
+  color:#1a1a1a;
+}
+
+body.dark-mode .text-content2 h1, body.dark-mode .text-content2 p, body.dark-mode .text-content2 h2 {
+color: whitesmoke
+}
+.text-content2 h1, .text-content2 p, .text-content2 h2{
+  color:#1a1a1a;
+}
+
+/* Example: Different dark mode style for visited links */
+.dark-mode a:hover {
+  background-color: #89a7c2;
+  color:black;
+}
+
+/* Form */
+input {
+  display: block;
+}
+
+label {
+  color: white;
+}
+
+.last_scroll_page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.rsvp-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 90%;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+/* Form (left) */
+.form-container {
+  flex: 1 1 400px;
+  padding: 20px;
+}
+
+.form-container label {
+  display: block;
+  font-size: 1.2rem;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 1rem;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+/* Participants (right) */
+.rsvp-participants {
+  flex: 1 1 400px;
+  max-height: 400px;
+  padding-left: 20px;
+}
+
+.last_scroll_page h1 {
+  margin-left: 20px;
+}
+
+.rsvp-para {
+  background-color: #2a465c;
+  border: 2px solid #1a1a1a;
+  color: whitesmoke;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.error {
+  border: 2px solid red;
+  background-color: #ffd6d6;
+}
+
+.error-msg {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: -4px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+#attendance-count {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-container {
+  padding: 50px;
+  width: 55%;
+  background-color: #2a465c;
+  border: solid 2px #89a7c2;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+.modal-item img {
+  width: 200px;
+  transition: transform 0.2s ease;
+}
+
+/* All sections start hidden and slightly down */
+.first_section,
+.second_section,
+.third_section,
+.last_section {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+/* When visible, fade in and slide up */
+.first_section.visible,
+.second_section.visible,
+.third_section.visible,
+.last_section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* First section dramatic effect */
+.first_section {
+  opacity: 0;
+  transform: translateX(-100px) scale(0.9);
+  transition: opacity 1.2s ease-out, transform 1.2s ease-out;
+}
+
+.first_section.visible {
+  opacity: 1;
+  transform: translateX(0) scale(1);
+}
+
+/* Third Scroll Page infinite moving gallery */
+.thrid_scroll_imgs {
+  display: flex;
+  gap: 1rem;
+  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.thrid_scroll_imgs-inner {
+  display: flex;
+  gap: 1rem;
+  width: max-content;
+  animation: scroll-gallery 30s linear infinite;
+}
+
+.thrid_scroll_imgs-inner img {
+  width: 200px; /* adjust as needed */
+  height: auto;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+/* Keyframes for smooth infinite scroll */
+@keyframes scroll-gallery {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); /* moves exactly half, because of duplicate images */
+  }
+}
+
+/* Pause scroll on hover */
+.thrid_scroll_imgs:hover .thrid_scroll_imgs-inner {
+  animation-play-state: paused;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .thrid_scroll_imgs-inner img {
+    width: 150px;
+  }
+}
+
+@media (max-width: 600px) {
+  .thrid_scroll_imgs-inner img {
+    width: 120px;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .first_scroll_page, .rsvp-container, .second_scroll_img {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .first_scroll_page .first_scroll_img,
+    .rsvp-participants,
+    .second_scroll_img img {
+        justify-content: center;
+    }
+
+    .first_scroll_page .text-content,
+    .form-container,
+    .rsvp-participants {
+        flex: unset;
+        width: 100%;
+        text-align: center;
+        padding: 0 1rem;
+    }
+
+    .second_scroll_page img {
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    button {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    .modal-container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .modal-item img {
+        width: 150px;
+    }
+}
+
