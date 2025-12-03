@@ -58,6 +58,7 @@ This website was created as part of CodePath’s WEB101 course to demonstrate sk
 - Add filter options to the gallery
 
 ## Live Demo
+<div style="position: relative; padding-bottom: NaN%; height: 0;"><iframe src="https://www.loom.com/embed/b53c5081a31b450582174696c3ac9fb2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ## Live Site
 [View Site Here](https://maroon-cooling-photo-894.vscodeedu.app/) 
